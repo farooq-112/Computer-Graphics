@@ -13,7 +13,8 @@
 		865160FF28C530D800E5720D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865160FE28C530D800E5720D /* GameViewController.swift */; };
 		8651610228C530D800E5720D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8651610028C530D800E5720D /* Main.storyboard */; };
 		8651610428C530DA00E5720D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8651610328C530DA00E5720D /* Assets.xcassets */; };
-		86666E1D28CBD2C600D12695 /* img.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 86666E1C28CBD2C600D12695 /* img.atlas */; };
+		8654C5C928CCC93900816F25 /* img.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8654C5C828CCC93900816F25 /* img.atlas */; };
+		8654C5CD28CCEDF200816F25 /* door.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8654C5CC28CCEDF200816F25 /* door.atlas */; };
 		CC5F476FE025CD6830EA93D1 /* Pods_CG_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC51D25D3F1F78636CDBAA2B /* Pods_CG_assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +29,8 @@
 		8651610128C530D800E5720D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8651610328C530DA00E5720D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8651610528C530DA00E5720D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86666E1C28CBD2C600D12695 /* img.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = img.atlas; path = ../../../../../Downloads/img.atlas; sourceTree = "<group>"; };
+		8654C5C828CCC93900816F25 /* img.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = img.atlas; sourceTree = "<group>"; };
+		8654C5CC28CCEDF200816F25 /* door.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = door.atlas; sourceTree = "<group>"; };
 		EC51D25D3F1F78636CDBAA2B /* Pods_CG_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CG_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,7 +76,8 @@
 		865160F528C530D800E5720D /* CG assignment */ = {
 			isa = PBXGroup;
 			children = (
-				86666E1C28CBD2C600D12695 /* img.atlas */,
+				8654C5CC28CCEDF200816F25 /* door.atlas */,
+				8654C5C828CCC93900816F25 /* img.atlas */,
 				865160F628C530D800E5720D /* AppDelegate.swift */,
 				865160F828C530D800E5720D /* GameScene.sks */,
 				865160FC28C530D800E5720D /* GameScene.swift */,
@@ -154,8 +157,9 @@
 			files = (
 				8651610228C530D800E5720D /* Main.storyboard in Resources */,
 				865160F928C530D800E5720D /* GameScene.sks in Resources */,
-				86666E1D28CBD2C600D12695 /* img.atlas in Resources */,
+				8654C5C928CCC93900816F25 /* img.atlas in Resources */,
 				8651610428C530DA00E5720D /* Assets.xcassets in Resources */,
+				8654C5CD28CCEDF200816F25 /* door.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
